@@ -1,0 +1,68 @@
+===========================================================================
+Interface List
+ 16...a2 a8 cd 33 bc dd ......Microsoft Virtual WiFi Miniport Adapter
+ 13...a0 a8 cd 33 bc e1 ......Bluetooth Device (Personal Area Network)
+ 12...a0 a8 cd 33 bc dd ......Intel(R) Dual Band Wireless-N 7260
+ 11...6c c2 17 7e ac e1 ......Intel(R) Ethernet Connection I218-LM
+ 17...00 50 56 c0 00 01 ......VMware Virtual Ethernet Adapter for VMnet1
+ 18...00 50 56 c0 00 08 ......VMware Virtual Ethernet Adapter for VMnet8
+  1...........................Software Loopback Interface 1
+ 29...00 00 00 00 00 00 00 e0 Microsoft ISATAP Adapter
+ 19...00 00 00 00 00 00 00 e0 Microsoft ISATAP Adapter #4
+ 31...00 00 00 00 00 00 00 e0 Microsoft ISATAP Adapter #3
+ 14...00 00 00 00 00 00 00 e0 Microsoft ISATAP Adapter #2
+ 21...00 00 00 00 00 00 00 e0 iphttpsinterface
+ 30...00 00 00 00 00 00 00 e0 Microsoft ISATAP Adapter #5
+ 32...00 00 00 00 00 00 00 e0 Microsoft ISATAP Adapter #6
+===========================================================================
+
+IPv4 Route Table
+===========================================================================
+Active Routes:
+Network Destination        Netmask          Gateway       Interface  Metric
+          0.0.0.0          0.0.0.0    192.168.1.200    192.168.1.104     25
+        127.0.0.0        255.0.0.0         On-link         127.0.0.1    306
+        127.0.0.1  255.255.255.255         On-link         127.0.0.1    306
+  127.255.255.255  255.255.255.255         On-link         127.0.0.1    306
+      192.168.1.0    255.255.255.0         On-link     192.168.1.104    281
+    192.168.1.104  255.255.255.255         On-link     192.168.1.104    281
+    192.168.1.255  255.255.255.255         On-link     192.168.1.104    281
+    192.168.154.0    255.255.255.0         On-link     192.168.154.1    276
+    192.168.154.1  255.255.255.255         On-link     192.168.154.1    276
+  192.168.154.255  255.255.255.255         On-link     192.168.154.1    276
+    192.168.248.0    255.255.255.0         On-link     192.168.248.1    276
+    192.168.248.1  255.255.255.255         On-link     192.168.248.1    276
+  192.168.248.255  255.255.255.255         On-link     192.168.248.1    276
+        224.0.0.0        240.0.0.0         On-link         127.0.0.1    306
+        224.0.0.0        240.0.0.0         On-link     192.168.1.104    281
+        224.0.0.0        240.0.0.0         On-link     192.168.154.1    276
+        224.0.0.0        240.0.0.0         On-link     192.168.248.1    276
+  255.255.255.255  255.255.255.255         On-link         127.0.0.1    306
+  255.255.255.255  255.255.255.255         On-link     192.168.1.104    281
+  255.255.255.255  255.255.255.255         On-link     192.168.154.1    276
+  255.255.255.255  255.255.255.255         On-link     192.168.248.1    276
+===========================================================================
+Persistent Routes:
+  None
+
+IPv6 Route Table
+===========================================================================
+Active Routes:
+ If Metric Network Destination      Gateway
+  1    306 ::1/128                  On-link
+ 12    281 fe80::/64                On-link
+ 18    276 fe80::/64                On-link
+ 17    276 fe80::/64                On-link
+ 12    281 fe80::292f:473b:55a3:da56/128
+                                    On-link
+ 17    276 fe80::64ea:773e:b361:1dce/128
+                                    On-link
+ 18    276 fe80::c923:5944:bfbe:dba1/128
+                                    On-link
+  1    306 ff00::/8                 On-link
+ 12    281 ff00::/8                 On-link
+ 18    276 ff00::/8                 On-link
+ 17    276 ff00::/8                 On-link
+===========================================================================
+Persistent Routes:
+  None
